@@ -97,6 +97,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swagger.Api", "MinimalAPI\S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structure.Api", "MinimalAPI\Structure.Api\Structure.Api.csproj", "{D927B75A-BBF6-474B-BF9F-AE19889E7DB5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logging", "Logging", "{9904F0F3-F75E-4E7F-B92A-BE6024980B37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppInsightsApp", "Logging\AppInsightsApp\AppInsightsApp.csproj", "{32ED39EE-5B8E-48A4-BC58-EF351BBC6605}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -235,6 +239,10 @@ Global
 		{D927B75A-BBF6-474B-BF9F-AE19889E7DB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D927B75A-BBF6-474B-BF9F-AE19889E7DB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D927B75A-BBF6-474B-BF9F-AE19889E7DB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32ED39EE-5B8E-48A4-BC58-EF351BBC6605}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32ED39EE-5B8E-48A4-BC58-EF351BBC6605}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32ED39EE-5B8E-48A4-BC58-EF351BBC6605}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32ED39EE-5B8E-48A4-BC58-EF351BBC6605}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -279,6 +287,7 @@ Global
 		{DAB4524E-D0AA-45A1-9E4C-CBFC384C2EE5} = {6B5D1149-8956-4380-B53D-DCD519CEE087}
 		{4A566547-DD33-4793-A9CD-D773F18B9577} = {6B5D1149-8956-4380-B53D-DCD519CEE087}
 		{D927B75A-BBF6-474B-BF9F-AE19889E7DB5} = {6B5D1149-8956-4380-B53D-DCD519CEE087}
+		{32ED39EE-5B8E-48A4-BC58-EF351BBC6605} = {9904F0F3-F75E-4E7F-B92A-BE6024980B37}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A40ACAF4-AA9B-401C-A37C-BC19B286A383}
